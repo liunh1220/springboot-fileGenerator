@@ -1,0 +1,68 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: fileGenerator-service
+    index: 0
+#  resources:
+#    static-locations: classpath:static/,file:static/
+
+#  profiles:
+#    active: dev
+
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  tomcat:
+    uri-encoding: UTF-8
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+cg:
+  file:
+    password: tdwACw!#3321!CG
+    path: D:\temp\templates\
+    link: http://localhost:8099
+    #path: /usr/local/software/fileGenerator-service/templates/
+    #link: http://cg.tuandai.com
+
+
+#eureka:
+#  instance:
+#    appname: "${spring.application.name}"
+#  client:
+#    serviceUrl:
+#      defaultZone: "${EUREKA_URL:http://10.100.11.217:21111/eureka}"
+#    register-with-eureka: true
+#    fetch-registry: true
+
+encrypt:
+  keyStore:
+    location: classpath:/server.jks
+    password: "${KEYSTORE_PASSWORD:4DpeZbUL^Xy%KdHm}"
+    alias: config-server-key
+    secret: "oQ$!3QnXm%&cS%GQ"
+
+app:
+  #是否为web站点, 默认false
+  web:
+    project: false
+  okhttp:
+    read:
+      timeout: 3000
+    connect:
+      timeout: 3000
+    write:
+      timeout: 10000
+    #最大空闲连接数
+    max:
+      idle: 5
+    #空闲连接存活时间
+    alive:
+      duration: 300
+

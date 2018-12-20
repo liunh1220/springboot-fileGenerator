@@ -1,0 +1,15 @@
+
+http://localhost:8099/cg/webSite//html/add
+
+{"fileContent":"mi40uZBbJVZ2ADcaawh2HriyB+JQjnVrtHpd7A6tVcY2cBpEGXzrCNV1h5CWS0XlCu+konFiQ8BEaQbLYRbr4w==",
+"fileType":"pc","serviceId":"TF20180619100050150","timeReq":"1529404943053","userDevice":"manager","serviceName":"manager"}
+
+<html><body><h2>停服站点测试页面</h2></body></html>
+
+
+
+http://localhost:8099/cg/webSite//html/status
+
+
+
+http://localhost:8099/cg/webSite//html/allClosingUrl?urlType=h5

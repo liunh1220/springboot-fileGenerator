@@ -1,0 +1,2 @@
+{"endTime":"2018-06-25 00:00:00","functionList":"all","h5Detail":"1234","h5Link":"http://localhost:8099/templates/app/20180619/TF20180619100050150.html?t=1529404943053","id":90,"pcDetail":"234","pcLink":"http://localhost:8099/templates/pc/20180619/TF20180619100050150.html?t=1529404943053","platform":"PC,APP,WAP","serviceOffNo":"TF20180615131123160","soStatus":"1","startTime":"2018-06-16 00:00:00","stopTime":"2018-06-27 14:12:23","title":"abc","type":"0"}
+
